@@ -5,6 +5,9 @@
   "description": "Javascript Version",
   "homepage": ".",
   "private": true,
+  "engines": {
+    "node": "16.14.1"
+  },
   "scripts": {
     "start": "serve -s build",
     "build": "react-scripts build",
